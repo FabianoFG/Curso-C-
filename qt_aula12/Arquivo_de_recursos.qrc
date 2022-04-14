@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/mgs">
+        <file>Imagens/passarinho.JPG</file>
+        <file>Imagens/wideputin.jpg</file>
+    </qresource>
+</RCC>

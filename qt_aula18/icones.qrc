@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/icones">
+        <file>icones/batatas-fritas.png</file>
+        <file>icones/entrega-de-alimentos.png</file>
+        <file>icones/loja-online.png</file>
+        <file>icones/pedido-online.png</file>
+        <file>icones/restaurante.png</file>
+    </qresource>
+</RCC>

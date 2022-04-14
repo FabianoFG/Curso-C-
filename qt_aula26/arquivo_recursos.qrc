@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/icones">
+        <file>icones/baby-feeder.png</file>
+        <file>icones/batatas-fritas.png</file>
+        <file>icones/blocks.png</file>
+        <file>icones/carrycot.png</file>
+        <file>icones/loja-online.png</file>
+        <file>icones/milk.png</file>
+        <file>icones/pacifier.png</file>
+        <file>icones/pedido-online.png</file>
+        <file>icones/rattle.png</file>
+        <file>icones/restaurante.png</file>
+        <file>icones/vaccine.png</file>
+    </qresource>
+</RCC>

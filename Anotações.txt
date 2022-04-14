@@ -1,0 +1,149 @@
+ COMPUTADOR SIMPLIFICADO
+
+ESTRUTURA BÁSICA
+
+#include <iostream>
+using namespace std;
+int main(){
+return 0;
+}
+
+VARIÁVEIS
+
+Declaração // (tipo) nome;
+Declaração com atribuição // (tipo) nome=valor;
+Atribuição // nome=valor;
+
+MÚLTIPLAS VARIÁVEIS
+
+Declaração múltipla // (tipo) nome, nome, nome;
+Declaração múltipla com atribuição // (tipo) nome=valor, nome=valor;
+
+
+VARIÁVEIS GLOBAIS E LOCAIS
+
+Locais: declaradas dentro de funções. Só valem localmente.
+Podem ter nomes iguais desde que em funções diferentes
+Globais: declaradas fora de funções. Válidas para todo o programa
+
+CONSTANTES
+
+Declaração // #define nome valor
+podem conter comando. // #define nome comando
+
+OPERADORES MATEMÁTICOS
+
+Soma // +
+Subtração // -
+Multiplicação // *
+Divisão //  /
+Resto// %
+Igualdade// =
+Ordem// ()
+sintaxe // valor0=valor1+valor2;
+
+INCREMENTO E DECREMENTO
+
+Sintaxe padrão // valor0=valor1-valor2;
+Sintaxe reduzida // valor0+=valor1;
+Com valor prefixado // valor0++; // opera após a leitura
+Com valor pós fixado // ++valor0; // soma antes da leitura
+
+INVERSÃO DE VALOR
+
+Inversão definitiva // nome=-nome
+Inversão temporária. Ex: // cout << -nome;
+
+COMPARATIVOS
+
+Maior ou menor // < ou >
+Igual // ==
+Maior menor ou igual // <=  ou >=
+
+COMANDO GOTO
+
+Marcar label // label:
+Comando // goto label;
+
+LIMPAR TELA
+
+Incluir biblioteca // #incllude <cstdlib>
+Comando // system ("cls"); 
+
+OPERADORES AND, OR, NOT
+
+and // && // x>1 && x<4 // Estabelece condição concomitante
+or // || // x<1 || x>4 // Estabelece condição alternativa
+not // ! // !nome// !valor // Estabelece exclusão
+
+COMANDO DECISÃO IF ELSE
+
+if // Estabelece condição de execução de comando
+else // Estabelece comando padrão
+Teste true/false // if (nome) { } // Apenas o nome da variável 
+sintaxe //
+
+ if (condição) {
+  	comando1;
+}else if (condição) {
+	comando2;
+}else{
+	comando3;
+}
+
+OPERADOR TERNÁRIO
+
+Sintaxe // (condição) ? comando1 : comando2;
+
+COMANDO SWITCH CASE
+
+Sintaxe // 
+switch (nome da variável) {
+	case valor0:
+	case valor1:
+		comando;
+		break;
+	case valor2:
+		comando;
+		break;
+	default:
+		comando;
+}
+Aninhado //
+switch (nome da variável) {
+	case valor0:
+		switch (nome da variável) {
+			case valor0:
+				comando;
+		}
+	case valor1:
+		comando;
+}
+
+Interromper depois de um case // break;
+
+COMANDO WHILE DO
+
+Útil para fazer loops em geral
+
+Pode ser aninhado
+
+Sintaxe // while(condição){
+	comando;
+}
+
+
+
+COMANDO FOR
+
+Útil para fazer loops de contagem ou por um número determinado de vezes
+Sintaxe // for(variável; condição; operador de contagem){
+	comando;
+}
+
+ARRAY OU VETOR
+
+Variável[número][número]=(n0, n1,n2; n3, ...);
+
+
+

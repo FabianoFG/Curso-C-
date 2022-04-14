@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/imagens">
+        <file>passarinho.JPG</file>
+        <file>wideputin.jpg</file>
+    </qresource>
+</RCC>

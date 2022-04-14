@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/splash">
+        <file>Imagens/passarinho.JPG</file>
+    </qresource>
+</RCC>
